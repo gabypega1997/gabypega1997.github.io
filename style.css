@@ -60,8 +60,18 @@ body{
 }
 
 .container-about{
+    
     background-color: rgb(35, 35, 39);
-    height: 100vh;
+
+    height: 158vh;
+}
+.about{
+     display: flex;
+     flex-direction: column;
+    width: 70vw;
+    height: 60vh;
+ 
+    
 }
 
 .about-title{
@@ -69,4 +79,70 @@ body{
     margin-top: 100px;
     padding-top: 30px;
     color:white;
+}
+.title-text{
+    position: relative;
+    left: 14em;
+   top: -15rem;
+    
+    color: aqua;
+}
+
+.image1{ 
+    position: relative;
+    top: 2em;
+    left: 2em;
+    width: 20vw;
+    height: 40vh;
+    
+}
+.image2{
+    position: relative;
+    margin-right: 2rem;
+   
+    width: 30vw;
+    height: 40vh;
+}
+.information{
+    position: relative;
+    left: 26rem;
+    font-size: 1.4rem;
+    top: -10em;
+    color: aqua;
+}
+.title-skills{
+    position: relative;
+   
+    top: auto;
+    left: auto;
+    color: skyblue
+}
+.skills{
+    position: relative;
+    color: brown;
+    
+    left: 2em;
+
+}
+.image3{
+    position: relative;
+    top: -5em;
+    left: 2em;
+    width: 30vw;
+    height: 40vh;
+}
+.title-project{
+    position: relative;
+    top: -15em;
+    left: 22em;
+    color: darkgreen;
+
+}
+
+
+.location{
+
+    height: 100vh;
+    background-color: rgba(63, 70, 109, 0.192);
+
 }
